@@ -1,8 +1,9 @@
-# S2TLb1
+# S2TLb1 | Eduardo Flores | T32311172
 
 Semana 2 Laboratorio 1.
 
-Nombre de BD: api_vehiculo
+Nombre de Base de Datos: api_vehiculo
+Nombre de tabla: tbl_vehiculo
 
 GET todos los registros: http://localhost:5500/api/vehiculo
 
@@ -17,6 +18,7 @@ BODY
 }
 
 PUT: http://localhost:5500/api/vehiculo/1
+BODY
 {
 "marca": "Kia",
 "modelo": "Sephia",
